@@ -1,0 +1,23 @@
+{
+
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/contacts",
+        "fb_url":"https://facebook.com/PianoHub",
+        "tw_url":"https://twitter.com/PianoHub",
+        "gt_url":"https://github.com/PianoHub",
+        "about":"Hi my name is Shreyansh.This is my first blog on piano and I'm really excited about sharing all the things about piano with you people.Join me in this wonderful journey of awesomeness . ",
+        "blog_name":"Piano Hub",
+        "tag_line":"A blog for pianists",
+        "no_of_posts":"2",
+        "login_image":"admin.jpg",
+        "admin_user":"shreyansh",
+        "admin_pass":"Shreyansh123"
+
+
+    }
+
+
+
+}
