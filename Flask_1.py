@@ -15,7 +15,8 @@ local_server=True
 if(local_server):
     app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
 else:
-    app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
+    pass
+
 
 
 db = SQLAlchemy(app)
