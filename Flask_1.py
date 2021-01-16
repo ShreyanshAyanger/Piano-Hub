@@ -14,6 +14,10 @@ app.secret_key= 'super-secret-key'
 local_server=True
 if(local_server):
     app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
+else:
+    app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
+
+
 db = SQLAlchemy(app)
 
 class Contacts(db.Model):
