@@ -11,7 +11,7 @@ with open('params.json','r') as c:
 
 app=Flask(__name__)
 app.secret_key= 'super-secret-key'
-app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
+app.config['SQLALCHEMY_DATABASE_URI'] = params['DATABASE_URL']
 # local_server=True
 # if(local_server):
 #     app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
