@@ -11,11 +11,12 @@ with open('params.json','r') as c:
 
 app=Flask(__name__)
 app.secret_key= 'super-secret-key'
-local_server=True
-if(local_server):
-    app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
-else:
-    pass
+app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
+# local_server=True
+# if(local_server):
+#     app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
+# else:
+#     pass
 
 
 
@@ -146,4 +147,4 @@ def logout():
     return redirect('/post')
 
 
-app.run(debug=True)
+# app.run(debug=True)
