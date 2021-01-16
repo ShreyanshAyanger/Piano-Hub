@@ -4,7 +4,7 @@
     {
         
         "local_uri":"mysql://root:@localhost/contacts",
-        "DATABASE_URL":"mysql://root:@localhost/contacts",
+        "DATABASE_URL":"postgres://kypnpwqhgmwkdr:e8c4d78cd8a56eaec0fc19d76b8a85097cb15c64486fd7811d7d9acade8dffef@ec2-3-215-40-176.compute-1.amazonaws.com:5432/d759tku8n47fp7",
         "fb_url":"https://facebook.com/PianoHub",
         "tw_url":"https://twitter.com/PianoHub",
         "gt_url":"https://github.com/PianoHub",
